@@ -5,6 +5,7 @@ int main(){
 	int contador=1,multiplo=7;
 	int n;
 	
+	cout<<"-------------------Bienvenido-----------------------"<<endl;
 	cout<<"Ingrese hasta que numero quiere la tabla del 7: ";
 	cin>>n;
 	
