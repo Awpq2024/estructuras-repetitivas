@@ -2,18 +2,21 @@
 using namespace std;
 
 int main(){
-	int contador=1,multiplo=7;
-	int n;
+	int contador=1,multiplo;
+	int n,m;
 	
 	cout<<"-------------------Bienvenido-----------------------"<<endl;
-	cout<<"Ingrese hasta que numero quiere la tabla del 7: ";
+	cout<<"Ingrese el numero de la tabla de multiplicacion a mostrar : ";
 	cin>>n;
+	cout<<"Ingrese el limite de la tabla del "<<n<<" a mostrar: ";
+	cin>>m;
+	multiplo=n;
 	
-	while (contador<=n){
-		cout<<"7 x ";
+	while (contador<=m){
+		cout<<n<<" x ";
 		cout<<contador<<"= ";
 		cout<<multiplo<<endl;
-		multiplo=multiplo+7;
+		multiplo=multiplo+n;
 		contador=contador+1;
 	}
 	
