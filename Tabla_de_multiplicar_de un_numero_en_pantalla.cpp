@@ -3,20 +3,20 @@ using namespace std;
 
 int main(){
 	int contador=1,multiplo;
-	int n,m;
+	int numero1,numero2;
 	
 	cout<<"-------------------Bienvenido-----------------------"<<endl;
 	cout<<"Ingrese el numero de la tabla de multiplicacion a mostrar : ";
-	cin>>n;
-	cout<<"Ingrese el limite de la tabla del "<<n<<" a mostrar: ";
-	cin>>m;
-	multiplo=n;
+	cin>>numero1;
+	cout<<"Ingrese el limite de la tabla del "<<numero1<<" a mostrar: ";
+	cin>>numero2;
+	multiplo=numero1;
 	
-	while (contador<=m){
-		cout<<n<<" x ";
+	while (contador<=numero2){
+		cout<<numero1<<" x ";
 		cout<<contador<<"= ";
 		cout<<multiplo<<endl;
-		multiplo=multiplo+n;
+		multiplo=multiplo+numero1;
 		contador=contador+1;
 	}
 	
