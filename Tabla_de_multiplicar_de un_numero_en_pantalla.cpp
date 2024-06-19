@@ -19,6 +19,6 @@ int main(){
 		multiplo=multiplo+numero1;
 		contador=contador+1;
 	}
-	
+	cout<<"Saliendo...";
 	return 0;
 }
