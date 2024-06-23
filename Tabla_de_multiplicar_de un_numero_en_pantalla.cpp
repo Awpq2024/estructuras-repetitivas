@@ -6,6 +6,7 @@ int main(){
 	int numero1,numero2;
 	
 	cout<<"-------------------Bienvenido-----------------------"<<endl;
+	cout<<"Hola usuario"<<endl;
 	cout<<"Ingrese el numero de la tabla de multiplicacion a mostrar : ";
 	cin>>numero1;
 	cout<<"Ingrese el limite de la tabla del "<<numero1<<" a mostrar: ";
